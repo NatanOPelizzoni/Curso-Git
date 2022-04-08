@@ -1,7 +1,15 @@
 'git init' => inicializa o git na pasta;
 
-'git status' => é utilizado para ver o que tem de alteração(arquivos novos, deletados) na pasta;
+'git status' => é utilizado para ver o que tem de alteração(arquivos novos, deletados, editados) na pasta;
 
 'git add "nome_do_arquivo"' => para adicionar o arquivo (nome do arquivo entre aspas duplas);
 'git add .' => para adicionar todos os arquivos mencionados;
 
+'git commit -m  "texto explicativo do commit"' => utilizado para fazer o commit das alterações;
+
+'git config --global user.email "natan2624@gmail.com"' => comando para configurar o email da conta do git(somente na primeira vez caso não tenha sido feito);
+'git config --global user.name "Natan O Pelizzoni"' => comando para configurar o nome da conta do git(somente na primeira vez caso não tenha sido feito);
+
+'git remote add origin https://github.com/NatanOPelizzoni/Curso-Git' => setando o repositório criado no github;
+
+'git push --set-upstream origin master' => faz o push do commit para a branch master
