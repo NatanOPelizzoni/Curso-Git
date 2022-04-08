@@ -1,3 +1,5 @@
+-----COMANDOS-----
+
 'git init' => inicializa o git na pasta;
 
 'git status' => é utilizado para ver o que tem de alteração(arquivos novos, deletados, editados) na pasta;
@@ -12,4 +14,15 @@
 
 'git remote add origin https://github.com/NatanOPelizzoni/Curso-Git' => setando o repositório criado no github;
 
-'git push --set-upstream origin master' => faz o push do commit para a branch master
+'git push --set-upstream origin master' => faz o push do commit para a branch master;
+
+'git reflog' => mostra um log com todas as alteracões feitas, mostrando a mais recento no topo da lista;
+
+'git reset --hard idDoCommit' => utilizado para restaurar algum dos commit existentes(idDoCommit = cód que aparece no inicio do reflog) Ex.: 'git reset --hard f2fdadf'. !!!Realizar esse comando somente se necessário!!!;
+
+-----OBSERVAÇÕES-----
+realizar a seguinte sequencia de comandos para subir as alterações feitas:
+
+-> 'git status' para verificar as alterações que foram feitas nos arquivos
+-> 'git add .' para adicionar ao commit todos os arquivos novos, editados e apagados
+-> 'git commit -m "mensagem do que foi feito"' para fazer o commit das alteracões
