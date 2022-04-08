@@ -1,0 +1,7 @@
+'git init' => inicializa o git na pasta;
+
+'git status' => é utilizado para ver o que tem de alteração(arquivos novos, deletados) na pasta;
+
+'git add "nome_do_arquivo"' => para adicionar o arquivo (nome do arquivo entre aspas duplas);
+'git add .' => para adicionar todos os arquivos mencionados;
+
