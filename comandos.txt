@@ -62,3 +62,8 @@ criar uma nova branch
 ignorando arquivos, pastas, ... (não adicionando nas branchs)
 
 -> 'touch .gitignore' => necessário ser pelo terminal do git
+
+dentro do arquivo .gitignore adicionar da seguinte foram
+
+nomeDaPasta/ => para ignorar pastas
+nomeDoArquivo.extensão => para ignorar algum arquivo específico
