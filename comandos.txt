@@ -57,3 +57,8 @@ criar uma nova branch
 -> 'git pull' => para pegar a versão mais atualizada
 
 -> 'git checkout -b nova-branch-teste master' => para criar a nova branch a partir da master
+
+
+ignorando arquivos, pastas, ... (não adicionando nas branchs)
+
+-> 'touch .gitignore' => necessário ser pelo terminal do git
