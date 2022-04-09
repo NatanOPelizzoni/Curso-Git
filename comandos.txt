@@ -16,9 +16,16 @@
 
 'git push --set-upstream origin master' => faz o push do commit para a branch master;
 
-'git reflog' => mostra um log com todas as alteracões feitas, mostrando a mais recento no topo da lista;
+'git reflog' => mostra um log com todas as alteracões feitas, mostrando a mais recente no topo da lista;
 
 'git reset --hard idDoCommit' => utilizado para restaurar algum dos commit existentes(idDoCommit = cód que aparece no inicio do reflog) Ex.: 'git reset --hard f2fdadf'. !!!Realizar esse comando somente se necessário!!!;
+
+'git branch' => utilizado para mostrar as branchs disponiveis no momento;
+
+'git branch nomeDaBranch' => comando para criar uma nova branch;
+
+'git checkout nomeDaBranch' => comando para trocar para a branch que deseja trabalhar;
+
 
 -----OBSERVAÇÕES-----
 realizar a seguinte sequencia de comandos para subir as alterações feitas:
@@ -26,3 +33,5 @@ realizar a seguinte sequencia de comandos para subir as alterações feitas:
 -> 'git status' para verificar as alterações que foram feitas nos arquivos
 -> 'git add .' para adicionar ao commit todos os arquivos novos, editados e apagados
 -> 'git commit -m "mensagem do que foi feito"' para fazer o commit das alteracões
+
+-> 'git push' para subir uma nova versão "final"
