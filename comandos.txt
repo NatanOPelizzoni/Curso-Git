@@ -35,3 +35,14 @@ realizar a seguinte sequencia de comandos para subir as alterações feitas:
 -> 'git commit -m "mensagem do que foi feito"' para fazer o commit das alteracões
 
 -> 'git push' para subir uma nova versão "final"
+
+
+para fazer merge entre branchs
+
+-> 'git checkout nomeDaBranchDestino' => para entrar na branch que vai receber as alterações
+
+-> 'git pull' => para baixar a versão final da branch principal, para que não de problema de perder código
+
+-> 'git merge nomeDaBranchOrigem' => para fazer o merge da nomeDaBranchOrigem para a nomeDaBranchDestino
+
+-> 'git push' => para subir a versão final da branch
