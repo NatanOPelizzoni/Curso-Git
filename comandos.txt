@@ -26,6 +26,8 @@
 
 'git checkout nomeDaBranch' => comando para trocar para a branch que deseja trabalhar;
 
+'git checkout -b nome-da-nova-branch nomeDaBranchOrigem' => cria uma nova branch apartir de uma existente(de preferencia da mais atualizada)
+
 
 -----OBSERVAÇÕES-----
 realizar a seguinte sequencia de comandos para subir as alterações feitas:
@@ -46,3 +48,12 @@ para fazer merge entre branchs
 -> 'git merge nomeDaBranchOrigem' => para fazer o merge da nomeDaBranchOrigem para a nomeDaBranchDestino
 
 -> 'git push' => para subir a versão final da branch
+
+
+criar uma nova branch
+
+-> 'git checkout master' => para entrar na master
+
+-> 'git pull' => para pegar a versão mais atualizada
+
+-> 'git checkout -b nova-branch-teste master' => para criar a nova branch a partir da master
